@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ねこ日和</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+        <script>
+  (function(d) {
+    var config = {
+      kitId: 'udw8zgi',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+  </head>
+
+  <body>
+    <id="wrapper">
+      <!-- ヘッダーココから -->
+      <header>
+        <h1>
+          保護猫カフェ<br />
+          <span>ねこ日和</span>
+        </h1>
+
+        <nav>
+          <ul>
+            <li><a href="nekocafe.html">ホーム</a></li>
+            <li><a href="MENU_neko.html">猫と遊ぶメニュー一覧</a></li>
+            <li><a href="contact_neko.html">ご予約</a></li>
+          </ul>
+        </nav>
+
+        <div class="clear"></div>
+
+        <p id="nav_tel">
+          <img
+            src="images/tel_nav.jpg"
+            alt="お電話でのご予約はこちらまで 012-345-6789"
+          />
+        </p>
+      </header>
+      <!-- ヘッダーここまで -->
+
+      <!-- 中見出しここから -->
+      <h2 id="heading" class="box-shadow">
+        ご予約・お問い合わせフォーム
+      </h2>
+            <!-- 中見出しここまで -->
+
+      <!-- 左ココから -->
+      <div id="left" class="box-shadow">
+        <h3>ご予約・お問い合わせフォーム</h3>
+        <p id="contact_text">下記お問い合わせフォームよりご希望の日時、ご予約内容をお知らせください。<br>お問い合わせの場合は、【お客様ご要望欄】に記入して送信してください。</p>
+      <form>
+        <table>
+            <tr>
+                <td class="form_title">
+                    <label for="form_name">お名前</label>
+                </td>
+                <td class="form_contents">
+                    <input type="text" id="form_name">
+                </td>
+            </tr>
+            <tr>
+                <td class="form_title">
+                    <label for="form_tel">お電話番号</label>
+                </td>
+                <td class="form_contents">
+                    <input type="text" id="form_tel">
+                </td>
+            </tr>
+            <tr>
+                <td class="form_title">
+                    <label for="form_time">ご希望日時</label>
+                </td>
+                <td class="form_contents">
+                    <input type="text" class="form_time">年
+                    <input type="text" class="form_time">月
+                    <input type="text" class="form_time">日
+                    <input type="text" class="form_time">時から
+                    <input type="text" class="form_time">時まで
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="form_title">
+                    <label for="form_menu">ご希望メニュー</label>
+                </td>
+                <td class="form_contents">
+                    <input type="checkbox" id="menu_cut" value="猫とあそぶ">
+                    <label for="menu_cut">猫とあそぶ</label>
+
+                    <input type="checkbox" id="menu_color" value="一緒におやつタイム">
+                    <label for="menu_color">一緒におやつタイム</label>
+
+                    <input type="checkbox" id="menu_perm" value="パーマ">
+                    <label for="menu_perm">１日コース</label>
+                </td>
+            <tr>
+                <td class="form_title">
+                    <label for="form_textarea">お客様ご要望欄</label>
+                </td>
+                <td class="form_contents">
+                    <textarea id="form_textarea"></textarea>
+                </td>
+            
+            </tr>
+        </table>
+        <p id="submit">
+        <input type="submit" value="送信する">
+        </p>
+      </form>
+    
+    </div>
+      <!-- 左ここまで -->
+
+      <!-- 右ココから -->
+      <div id="right">
+        <ul>
+          <!-- <li class="box-shadow"><a id="contact" href="#">ご予約・お問い合わせ</a></li> -->
+          <li class="box-shadow"><a id="blog" href="blog_neko.html">きょうのねこたち</a></li>
+          <li class="box-shadow">
+      </div>
+      <!-- 右ここまで -->
+
+      <div class="clear"></div>
+    
+    <!-- //#wrapper -->
+
+    <!-- フッターココから -->
+    <footer>
+      <p>Copyright (C) 2010-2015 Campus inc. All Right Reserved.</p>
+    </footer>
+    <!-- フッターここまで -->
+  </body>
+</html>
